@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TienMinh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" value="0" id="textBox"><br>
+
+        <label for="toFahrenheit">Celsius to Fahrenheit</label>
+        <input type="radio" id="toFahrenheit" name="unit"><br>
+
+        <label for="toCelsius">Fahrenheit to Celsius</label>
+        <input type="radio" id="toCelsius" name="unit"><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+
+        <p id="result"></p>
+    </form>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
